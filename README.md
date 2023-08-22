@@ -126,7 +126,7 @@ The baseline method FCGF can be trained similarly with our dataset:
 
 ### Testing
 
-To test FCGF+GCL on either dataset, you can choose to use SC2-PCR to speedup the result with a slight performance increase, by setting `use_RANSAC` to `true`. Do not forget to set  `OUT_DIR` to the specific model path before running the corresponding script inside conda environment `gcl`:
+To test FCGF+GCL on either dataset, you can choose to use SC2-PCR to speedup the result with a slight performance increase, by setting `use_RANSAC` to `false`. Do not forget to set  `OUT_DIR` to the specific model path before running the corresponding script inside conda environment `gcl`:
 
 ```
 ./scripts/test_gcl_kitti.sh
