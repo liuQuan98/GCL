@@ -49,6 +49,8 @@ nuScenes:
 | FCGF+APR     |94.5   |0.45 	|37.0 |  
 | Predator     |97.8   |0.58 	|20.2 |  
 | Predator+APR |99.5   |0.47 	|19.1 |  
+| GCL+Conv     |99.2   |0.30    |16.7 |
+| GCL+KPConv   | 99.7  |0.35    |15.9 |
 
 LoNuScenes:
 | Method | RR | RRE | RTE |
@@ -57,6 +59,8 @@ LoNuScenes:
 | FCGF+APR    | 51.8  | 1.40 	|62.0 |
 | Predator    | 50.4  | 1.47 	|54.5 |
 | Predator+APR| 62.7  | 1.30 	|51.8 |
+| GCL+Conv    | 82.4  | 0.70    |46.8 |
+| GCL+KPConv  | 86.5  | 0.84    | 46.5|
 
 ## Requirements
 
