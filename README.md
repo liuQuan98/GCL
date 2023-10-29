@@ -18,6 +18,46 @@ This repository is the implementation of FCGF+GCL upon [FCGF](https://github.com
 <img src=assets\overview.png>
 </div>
 
+## Results
+
+All results below are tested at a metric of TE<2m, RE<5°.
+
+KITTI:
+| Method | RR | RRE | RTE |
+| :- | :-: | - | - |
+| FCGF         |97.8    |0.35   | 12.6|
+| FCGF+APR     |98.2    |0.34   | 9.6 |
+| Predator     |100.0   |0.31   | 7.4 | 
+| Predator+APR |100.0   |0.30   | 7.3 | 
+| GCL+Conv     |98.6 	|0.26   |6.62 |
+| GCL+KPConv   |99.2 	|0.25   |7.50 |
+
+LoKITTI:
+| Method | RR | RRE | RTE |
+| :- | :-: | - | - |
+| FCGF         |22.2    |2.02   |55.2 |
+| FCGF+APR     |32.7    |1.74   |51.9 |
+| Predator     |42.4    |1.75   |43.4 |
+| Predator+APR |50.8    |1.64   |39.5 |
+| GCL+Conv     |72.3 	|1.03   |25.9 |
+| GCL+KPConv   |55.4 	|1.28   |27.8 |
+
+nuScenes:
+| Method | RR | RRE | RTE |
+| :- | :-: | - | - |
+| FCGF         |93.6   |0.46 	|50.0 |  
+| FCGF+APR     |94.5   |0.45 	|37.0 |  
+| Predator     |97.8   |0.58 	|20.2 |  
+| Predator+APR |99.5   |0.47 	|19.1 |  
+
+LoNuScenes:
+| Method | RR | RRE | RTE |
+| :- | :-: | - | - |
+| FCGF        | 49.1  | 1.30 	|60.9 |
+| FCGF+APR    | 51.8  | 1.40 	|62.0 |
+| Predator    | 50.4  | 1.47 	|54.5 |
+| Predator+APR| 62.7  | 1.30 	|51.8 |
+
 ## Requirements
 
 - Ubuntu 14.04 or higher
