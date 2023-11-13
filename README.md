@@ -8,6 +8,8 @@ This repository is the implementation of FCGF+GCL upon [FCGF](https://github.com
 
 ## News
 
+20231113 - Pretrained weights are released [here](https://drive.google.com/file/d/17rt_eNBiLdOr5WxxYz8rOuUDwGsnDTXZ/view?usp=sharing).
+
 20230808 - Source code is released.
 
 20230713 - Our paper has been accepted by ICCV'23!
