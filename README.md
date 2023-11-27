@@ -4,7 +4,7 @@ Registration of distant outdoor LiDAR point clouds is crucial to extending the 3
 
 Link to the arxiv version: [https://arxiv.org/abs/2307.09788](https://arxiv.org/abs/2307.09788)
 
-This repository is the implementation of FCGF+GCL upon [FCGF](https://github.com/chrischoy/FCGF). We will release the code for KPConv+GCL in the coming days.
+This repository is the implementation of FCGF+GCL upon [FCGF](https://github.com/chrischoy/FCGF). KPConv+GCL is available in a separate repository [here](https://github.com/liuQuan98/GCL-KPConv).
 
 ## News
 
