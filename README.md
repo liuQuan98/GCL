@@ -2,7 +2,7 @@
 
 Registration of distant outdoor LiDAR point clouds is crucial to extending the 3D vision of collaborative autonomous vehicles, and yet is challenging due to small overlapping area and a huge disparity between observed point densities. In this paper, we propose Group-wise Contrastive Learning (GCL) scheme to extract density-invariant geometric features to register distant outdoor LiDAR point clouds. We mark through theoretical analysis and experiments that, contrastive positives should be independent and identically distributed (i.i.d.), in order to train density-invariant feature extractors. We propose upon the conclusion a simple yet effective training scheme to force the feature of multiple point clouds in the same spatial location (referred to as positive groups) to be similar, which naturally avoids the sampling bias introduced by a pair of point clouds to conform with the i.i.d. principle. The resulting fully-convolutional feature extractor is more powerful and density-invariant than state-of-the-art methods, improving the registration recall of distant scenarios on KITTI and nuScenes benchmarks by 40.9% and 26.9%, respectively.
 
-Link to the arxiv version: [https://arxiv.org/abs/2307.09788](https://arxiv.org/abs/2307.09788)
+Paper links: [Camera-ready](https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Density-invariant_Features_for_Distant_Point_Cloud_Registration_ICCV_2023_paper.html),  [Arxiv preprint](https://arxiv.org/abs/2307.09788)
 
 This repository is the implementation of FCGF+GCL upon [FCGF](https://github.com/chrischoy/FCGF). KPConv+GCL is available in a separate repository [here](https://github.com/liuQuan98/GCL-KPConv).
 
