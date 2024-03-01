@@ -30,8 +30,11 @@ nvidia-smi | tee -a $LOG
 # Test
 python -m scripts.test_kitti \
 	--kitti_root ${KITTI_PATH} \
-	--LoKITTI true \
-	--pair_min_dist 5 \
-	--pair_max_dist 40 \
+	--LoKITTI false \
+	--rre_thresh 5 \
+	--rte_thresh 2 \
+	--pair_min_dist 10 \
+	--pair_max_dist 20 \
 	--downsample_single 1.0 \
+	--use_RANSAC true \
 	--save_dir ${OUT_DIR} | tee -a $LOG
