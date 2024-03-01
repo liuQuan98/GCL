@@ -30,7 +30,7 @@ nvidia-smi | tee -a $LOG
 # Test
 python -m scripts.test_kitti \
 	--kitti_root ${KITTI_PATH} \
-	--LoNUSCENES true \
+	--LoNUSCENES false \
 	--rre_thresh 5.0 \
 	--rte_thresh 2.0 \
 	--pair_min_dist 40 \
