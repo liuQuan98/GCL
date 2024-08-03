@@ -72,6 +72,21 @@ class KittiConverter:
 
         # Select subset of the data to look at.
         self.nusc = NuScenes(version=nusc_version, dataroot=nusc_dir, verbose=True)
+                  
+    def _split_to_samples(self, split_logs: List[str]) -> List[str]:
+        """
+        Convenience function to get the samples in a particular split.
+        :param split_logs: A list of the log names in this split.
+        :return: The list of samples.
+        """
+        samples = []
+        for sample in self.nusc.sample:
+            scene = self.nusc.get('scene', sample['scene_token'])
+            log = self.nusc.get('log', scene['log_token'])
+            logfile = log['logfile']
+            if logfile in split_logs:
+                samples.append(sample['token'])
+        return samples
 
     def nuscenes_construct_kitti_PCR_data(self) -> None:
         """
