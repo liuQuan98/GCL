@@ -25,7 +25,8 @@ This repository is the implementation of FCGF+GCL upon [FCGF](https://github.com
 
 ## Results
 
-All results below are tested at a metric of TE<2m, RE<5°.
+All results below are tested at a registration criterion of TE<2m, RE<5°.
+The metrics of RR(%), RRE(°) and RTE(cm) are reported.
 
 KITTI:
 | Method | RR | RRE | RTE |
